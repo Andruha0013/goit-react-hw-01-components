@@ -1,0 +1,15 @@
+:root{
+    --bgcolor:rgb(151, 151, 151);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+    padding: 40px;
+    background-color: var(--bgcolor);
+
+}
+.container__white{
+    background-color: white;
+}

@@ -1,0 +1,24 @@
+.transaction_history {
+    margin: 0;
+
+    background-color: white;
+
+    box-shadow: 5px 4px 16px 7px rgba(166,166,166,0.91);
+    -webkit-box-shadow: 5px 4px 16px 7px rgba(166,166,166,0.91);
+    -moz-box-shadow: 5px 4px 16px 7px rgba(166,166,166,0.91);
+}
+.transaction_tableHeader {
+
+}
+.transaction_tableHeader{
+    padding: 5px;
+    background-color: cornflowerblue;
+}
+.transaction_tableBody{
+}
+.transaction_tableBody>tr:nth-child(2n) {
+    background-color: #f0f0f0;
+}
+.transaction_tableBody>tr {
+    padding: 5px;
+}

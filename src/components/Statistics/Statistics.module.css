@@ -1,0 +1,41 @@
+.statistics {
+    padding: 40px;
+    background-color: rgb(218, 213, 213);
+}
+.card {
+    background-color: white;
+    width: 300px;
+}
+.title {
+}
+.stat_list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+
+    list-style: none;
+}
+
+.item {
+    padding: 5px;
+    background-color:blue;
+    
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 5px;
+
+    color: aliceblue;
+
+}
+.item:nth-child(even) {
+    background-color: forestgreen;
+}
+.label {
+    text-align: center;
+    font-size: small;
+}
+.percentage {
+    text-align: center;
+    font-size: large;
+}
