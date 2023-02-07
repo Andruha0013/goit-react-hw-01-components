@@ -1,5 +1,5 @@
-import { Profile } from "components/Profile/Profile";
-import MyJson from '../../data/user.json';
+//import { Profile } from "components/Profile/Profile";
+//import MyJson from '../../data/user.json';
 import css from "./Container.module.css";
 //console.log(MyJson);
 export const Container=({element,bgWhite})=>{
